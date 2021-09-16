@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.753); */
 }
 
 .App-logo {
@@ -35,4 +36,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.coinlist {
+  width: 45%;
+  height: 83.5vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* text-align: left; */
+  scroll-behavior: smooth;
+}
+.coindetails {
+  width: 55%;
+  /* background-color: rgba(0, 0, 0, 0.753); */
+  /* color: #ffffff; */
+}
+.coindetails h3 {
+  margin-top: 10px;
+  /* text-align: center; */
+}
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.coinlist table {
+  margin: 20px 15px;
+}
+
+.coin-logo {
+  width: 30px;
+}
+td {
+  padding: 10px 0;
+  /* align-items: center; */
+}
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  padding: 50px 20px;
+  font-weight: 600;
+}
+.facts-sub-div {
+  width: 100%;
+  display: flex;
+  margin: 7.5px 0;
+  justify-content: space-evenly;
 }
